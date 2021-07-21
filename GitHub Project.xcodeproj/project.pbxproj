@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DE74C4726A8A5E100FD8B21 /* ViewController1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE74C4626A8A5E100FD8B21 /* ViewController1ViewController.swift */; };
 		9375CCE326A76E68000123D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9375CCE226A76E68000123D3 /* AppDelegate.swift */; };
 		9375CCE526A76E68000123D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9375CCE426A76E68000123D3 /* SceneDelegate.swift */; };
 		9375CCE726A76E68000123D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9375CCE626A76E68000123D3 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1DE74C4626A8A5E100FD8B21 /* ViewController1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1ViewController.swift; sourceTree = "<group>"; };
 		9375CCDF26A76E68000123D3 /* GitHub Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GitHub Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9375CCE226A76E68000123D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9375CCE426A76E68000123D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				9375CCF026A76E69000123D3 /* LaunchScreen.storyboard */,
 				9375CCF326A76E69000123D3 /* Info.plist */,
 				9375CCEB26A76E68000123D3 /* GitHub_Project.xcdatamodeld */,
+				1DE74C4626A8A5E100FD8B21 /* ViewController1ViewController.swift */,
 			);
 			path = "GitHub Project";
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			files = (
 				9375CCED26A76E68000123D3 /* GitHub_Project.xcdatamodeld in Sources */,
 				9375CCE726A76E68000123D3 /* ViewController.swift in Sources */,
+				1DE74C4726A8A5E100FD8B21 /* ViewController1ViewController.swift in Sources */,
 				9375CCE326A76E68000123D3 /* AppDelegate.swift in Sources */,
 				9375CCE526A76E68000123D3 /* SceneDelegate.swift in Sources */,
 			);
