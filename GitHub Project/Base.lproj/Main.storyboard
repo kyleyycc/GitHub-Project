@@ -15,24 +15,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="41u-fo-rIK">
-                                <rect key="frame" x="45" y="313" width="325" height="248"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Click Here to Grow!">
-                                            <attributes>
-                                                <color key="NSColor" red="0.33878260466122107" green="0.6006908224086569" blue="0.3012909341241265" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="24" name="Chalkduster"/>
-                                                <font key="NSOriginalFont" size="24" name="Chalkduster"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                                <connections>
-                                    <segue destination="YjT-2e-qHx" kind="presentation" modalPresentationStyle="fullScreen" id="aO3-0Q-BoD"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jpg-kr-2aq">
                                 <rect key="frame" x="25" y="189" width="364" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -47,6 +29,24 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="41u-fo-rIK">
+                                <rect key="frame" x="45" y="292" width="325" height="248"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Click Here to Grow!">
+                                            <attributes>
+                                                <color key="NSColor" red="0.33878260466122107" green="0.6006908224086569" blue="0.3012909341241265" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="24" name="Chalkduster"/>
+                                                <font key="NSOriginalFont" size="24" name="Chalkduster"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="jrB-LE-tV2" kind="presentation" modalPresentationStyle="fullScreen" id="CJl-gM-HHR"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.78915880625371382" green="1" blue="0.82228103502713923" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -57,7 +57,71 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="73.660714285714278"/>
+            <point key="canvasLocation" x="-701" y="69"/>
+        </scene>
+        <!--How To View Controller-->
+        <scene sceneID="qIN-Iq-1ab">
+            <objects>
+                <viewController id="jrB-LE-tV2" customClass="howToViewController" customModule="GitHub_Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cTp-qb-VhV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hNR-Yv-v6C">
+                                <rect key="frame" x="16" y="53" width="382" height="183"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="How To">
+                                        <attributes>
+                                            <color key="NSColor" red="0.47397062009736263" green="0.55004781361097277" blue="0.76769102460000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="42" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1F4-Oy-yEV">
+                                <rect key="frame" x="25" y="271" width="364" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Welcome to Project Grow!Here, you will be able to organize your ind, body, and soul.">
+                                        <attributes>
+                                            <color key="NSColor" red="0.56774879224372632" green="0.44964916959055912" blue="0.3749503435904098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="25" name="Chalkduster"/>
+                                            <font key="NSOriginalFont" size="25" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" You will be able ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.56774879224372632" green="0.44964916959055912" blue="0.3749503435904098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="25" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nHb-XV-KKF">
+                                <rect key="frame" x="158" y="766" width="104" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <state key="normal" title="Continue">
+                                    <color key="titleColor" red="0.50943954570000005" green="0.469540552" blue="0.33635273069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="YjT-2e-qHx" kind="presentation" modalPresentationStyle="fullScreen" id="KSO-gl-tZa"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="R5M-pQ-EUJ"/>
+                        <color key="backgroundColor" red="0.85174864530000005" green="0.92859202620000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kfd-3G-zH5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-7.2463768115942031" y="79.6875"/>
         </scene>
         <!--View Controller1 View Controller-->
         <scene sceneID="ZXY-Jq-urR">
@@ -68,7 +132,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nkh-ea-F9N">
-                                <rect key="frame" x="16" y="20" width="382" height="183"/>
+                                <rect key="frame" x="16" y="52" width="382" height="183"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="your butterfly">
@@ -86,24 +150,45 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WjH-yQ-oYo">
-                                <rect key="frame" x="135" y="778" width="46" height="30"/>
+                                <rect key="frame" x="116" y="781" width="58" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <state key="normal" title="Body">
+                                    <color key="titleColor" red="0.50943954570000005" green="0.469540552" blue="0.33635273069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ZvO-CF-cr8" kind="presentation" modalPresentationStyle="fullScreen" id="Wqp-pm-YP1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YQZ-i3-tqj">
-                                <rect key="frame" x="229" y="778" width="46" height="30"/>
+                                <rect key="frame" x="209" y="781" width="49" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <state key="normal" title="Soul">
+                                    <color key="titleColor" red="0.50943954570000005" green="0.469540552" blue="0.33635273069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Yqj-ma-mEC" kind="presentation" modalPresentationStyle="fullScreen" id="CDy-8Q-D6t"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H6Y-3h-JPV">
-                                <rect key="frame" x="323" y="778" width="46" height="30"/>
+                                <rect key="frame" x="284" y="781" width="98" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <state key="normal" title="Butterfly">
+                                    <color key="titleColor" red="0.50943954570000005" green="0.469540552" blue="0.33635273069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="29R-rh-Ks7">
-                                <rect key="frame" x="50" y="778" width="46" height="30"/>
+                                <rect key="frame" x="32" y="781" width="56" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <state key="normal" title="Mind">
+                                    <color key="titleColor" red="0.50943954570000005" green="0.469540552" blue="0.33635273069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="UR5-hd-cZp" kind="presentation" modalPresentationStyle="fullScreen" id="04u-Cb-2Fb"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Waq-Ze-s9d"/>
@@ -115,10 +200,10 @@
             </objects>
             <point key="canvasLocation" x="682.60869565217399" y="68.973214285714278"/>
         </scene>
-        <!--View Controller-->
+        <!--Mind View Controller-->
         <scene sceneID="Lzn-8k-s4c">
             <objects>
-                <viewController id="UR5-hd-cZp" sceneMemberID="viewController">
+                <viewController id="UR5-hd-cZp" customClass="mindViewController" customModule="GitHub_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oLI-oE-mwI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -137,6 +222,47 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vhg-yB-CNj">
+                                <rect key="frame" x="112" y="776" width="58" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <state key="normal" title="Body">
+                                    <color key="titleColor" red="0.50943954570000005" green="0.469540552" blue="0.33635273069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ZvO-CF-cr8" kind="presentation" modalPresentationStyle="fullScreen" id="MWY-Lx-rI4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J0g-h8-mfm">
+                                <rect key="frame" x="205" y="776" width="49" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <state key="normal" title="Soul">
+                                    <color key="titleColor" red="0.50943954570000005" green="0.469540552" blue="0.33635273069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Yqj-ma-mEC" kind="presentation" modalPresentationStyle="fullScreen" id="s6o-1P-mIX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vah-Ze-Nxh">
+                                <rect key="frame" x="280" y="776" width="98" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <state key="normal" title="Butterfly">
+                                    <color key="titleColor" red="0.50943954570000005" green="0.469540552" blue="0.33635273069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="YjT-2e-qHx" kind="presentation" modalPresentationStyle="fullScreen" id="fvw-DI-2Bi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Duh-sZ-Bhj">
+                                <rect key="frame" x="28" y="776" width="56" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <state key="normal" title="Mind">
+                                    <color key="titleColor" red="0.50943954570000005" green="0.469540552" blue="0.33635273069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kBS-Jw-T8l"/>
                         <color key="backgroundColor" red="0.85130928846483001" green="0.93015154048352" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -146,10 +272,10 @@
             </objects>
             <point key="canvasLocation" x="1336" y="74"/>
         </scene>
-        <!--View Controller-->
+        <!--Body View Controller-->
         <scene sceneID="jGq-TJ-ExT">
             <objects>
-                <viewController id="ZvO-CF-cr8" sceneMemberID="viewController">
+                <viewController id="ZvO-CF-cr8" customClass="bodyViewController" customModule="GitHub_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ymM-M2-R4S">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -168,6 +294,47 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7l4-Gb-8et">
+                                <rect key="frame" x="116" y="782" width="58" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <state key="normal" title="Body">
+                                    <color key="titleColor" red="0.50943954570000005" green="0.469540552" blue="0.33635273069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Oe-mU-ZJn">
+                                <rect key="frame" x="209" y="782" width="49" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <state key="normal" title="Soul">
+                                    <color key="titleColor" red="0.50943954570000005" green="0.469540552" blue="0.33635273069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Yqj-ma-mEC" kind="presentation" modalPresentationStyle="fullScreen" id="RmU-mm-SZ2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Fy-fI-FAg">
+                                <rect key="frame" x="284" y="782" width="98" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <state key="normal" title="Butterfly">
+                                    <color key="titleColor" red="0.50943954570000005" green="0.469540552" blue="0.33635273069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="YjT-2e-qHx" kind="presentation" modalPresentationStyle="fullScreen" id="B1N-M9-2YU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ug1-vR-ZrU">
+                                <rect key="frame" x="32" y="782" width="56" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <state key="normal" title="Mind">
+                                    <color key="titleColor" red="0.50943954570000005" green="0.469540552" blue="0.33635273069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="UR5-hd-cZp" kind="presentation" modalPresentationStyle="fullScreen" id="1e2-4F-PbN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="38A-D1-aWd"/>
                         <color key="backgroundColor" red="1" green="0.91417929811682763" blue="0.74881248958962354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -177,10 +344,10 @@
             </objects>
             <point key="canvasLocation" x="2012" y="71"/>
         </scene>
-        <!--View Controller-->
+        <!--Soul View Controller-->
         <scene sceneID="UJN-d9-XJh">
             <objects>
-                <viewController id="Yqj-ma-mEC" sceneMemberID="viewController">
+                <viewController id="Yqj-ma-mEC" customClass="soulViewController" customModule="GitHub_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0en-ke-pd2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -199,6 +366,47 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="adi-na-XmH">
+                                <rect key="frame" x="116" y="779" width="58" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <state key="normal" title="Body">
+                                    <color key="titleColor" red="0.50943954570000005" green="0.469540552" blue="0.33635273069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ZvO-CF-cr8" kind="presentation" modalPresentationStyle="fullScreen" id="8fc-3p-Ge5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cem-ED-6d5">
+                                <rect key="frame" x="209" y="779" width="49" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <state key="normal" title="Soul">
+                                    <color key="titleColor" red="0.50943954570000005" green="0.469540552" blue="0.33635273069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ld-TP-QeZ">
+                                <rect key="frame" x="284" y="779" width="98" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <state key="normal" title="Butterfly">
+                                    <color key="titleColor" red="0.50943954570000005" green="0.469540552" blue="0.33635273069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="YjT-2e-qHx" kind="presentation" modalPresentationStyle="fullScreen" id="y7c-yy-6V7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wPN-sV-tcb">
+                                <rect key="frame" x="32" y="779" width="56" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <state key="normal" title="Mind">
+                                    <color key="titleColor" red="0.50943954570000005" green="0.469540552" blue="0.33635273069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="UR5-hd-cZp" kind="presentation" modalPresentationStyle="fullScreen" id="h76-bw-wRT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hfB-xW-9EP"/>
                         <color key="backgroundColor" red="0.81548710575698102" green="0.95047351567432137" blue="0.68549172621773979" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -209,4 +417,10 @@
             <point key="canvasLocation" x="2683" y="74"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="s6o-1P-mIX"/>
+        <segue reference="8fc-3p-Ge5"/>
+        <segue reference="h76-bw-wRT"/>
+        <segue reference="KSO-gl-tZa"/>
+    </inferredMetricsTieBreakers>
 </document>

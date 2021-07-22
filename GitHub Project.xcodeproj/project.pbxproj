@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1DE74C4726A8A5E100FD8B21 /* ViewController1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE74C4626A8A5E100FD8B21 /* ViewController1ViewController.swift */; };
+		1DE74C4726A8A5E100FD8B21 /* yourButterflyController1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE74C4626A8A5E100FD8B21 /* yourButterflyController1ViewController.swift */; };
 		9375CCE326A76E68000123D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9375CCE226A76E68000123D3 /* AppDelegate.swift */; };
 		9375CCE526A76E68000123D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9375CCE426A76E68000123D3 /* SceneDelegate.swift */; };
 		9375CCE726A76E68000123D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9375CCE626A76E68000123D3 /* ViewController.swift */; };
@@ -17,6 +17,10 @@
 		9375CCF226A76E69000123D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9375CCF026A76E69000123D3 /* LaunchScreen.storyboard */; };
 		9375CCFD26A76E69000123D3 /* GitHub_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9375CCFC26A76E69000123D3 /* GitHub_ProjectTests.swift */; };
 		9375CD0826A76E69000123D3 /* GitHub_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9375CD0726A76E69000123D3 /* GitHub_ProjectUITests.swift */; };
+		9375CD1C26A9DCF3000123D3 /* mindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9375CD1B26A9DCF3000123D3 /* mindViewController.swift */; };
+		9375CD1E26A9DD27000123D3 /* bodyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9375CD1D26A9DD27000123D3 /* bodyViewController.swift */; };
+		9375CD2026A9DD4C000123D3 /* soulViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9375CD1F26A9DD4C000123D3 /* soulViewController.swift */; };
+		9375CD2226A9DD6C000123D3 /* howToViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9375CD2126A9DD6C000123D3 /* howToViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1DE74C4626A8A5E100FD8B21 /* ViewController1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1ViewController.swift; sourceTree = "<group>"; };
+		1DE74C4626A8A5E100FD8B21 /* yourButterflyController1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yourButterflyController1ViewController.swift; sourceTree = "<group>"; };
 		9375CCDF26A76E68000123D3 /* GitHub Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GitHub Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9375CCE226A76E68000123D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9375CCE426A76E68000123D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +57,10 @@
 		9375CD0326A76E69000123D3 /* GitHub ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GitHub ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9375CD0726A76E69000123D3 /* GitHub_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHub_ProjectUITests.swift; sourceTree = "<group>"; };
 		9375CD0926A76E69000123D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9375CD1B26A9DCF3000123D3 /* mindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mindViewController.swift; sourceTree = "<group>"; };
+		9375CD1D26A9DD27000123D3 /* bodyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bodyViewController.swift; sourceTree = "<group>"; };
+		9375CD1F26A9DD4C000123D3 /* soulViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soulViewController.swift; sourceTree = "<group>"; };
+		9375CD2126A9DD6C000123D3 /* howToViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = howToViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +119,11 @@
 				9375CCF026A76E69000123D3 /* LaunchScreen.storyboard */,
 				9375CCF326A76E69000123D3 /* Info.plist */,
 				9375CCEB26A76E68000123D3 /* GitHub_Project.xcdatamodeld */,
-				1DE74C4626A8A5E100FD8B21 /* ViewController1ViewController.swift */,
+				1DE74C4626A8A5E100FD8B21 /* yourButterflyController1ViewController.swift */,
+				9375CD1B26A9DCF3000123D3 /* mindViewController.swift */,
+				9375CD1D26A9DD27000123D3 /* bodyViewController.swift */,
+				9375CD1F26A9DD4C000123D3 /* soulViewController.swift */,
+				9375CD2126A9DD6C000123D3 /* howToViewController.swift */,
 			);
 			path = "GitHub Project";
 			sourceTree = "<group>";
@@ -264,9 +276,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9375CD1E26A9DD27000123D3 /* bodyViewController.swift in Sources */,
 				9375CCED26A76E68000123D3 /* GitHub_Project.xcdatamodeld in Sources */,
+				9375CD2226A9DD6C000123D3 /* howToViewController.swift in Sources */,
 				9375CCE726A76E68000123D3 /* ViewController.swift in Sources */,
-				1DE74C4726A8A5E100FD8B21 /* ViewController1ViewController.swift in Sources */,
+				9375CD1C26A9DCF3000123D3 /* mindViewController.swift in Sources */,
+				1DE74C4726A8A5E100FD8B21 /* yourButterflyController1ViewController.swift in Sources */,
+				9375CD2026A9DD4C000123D3 /* soulViewController.swift in Sources */,
 				9375CCE326A76E68000123D3 /* AppDelegate.swift in Sources */,
 				9375CCE526A76E68000123D3 /* SceneDelegate.swift in Sources */,
 			);
