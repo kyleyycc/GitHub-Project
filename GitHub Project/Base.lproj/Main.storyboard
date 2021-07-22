@@ -145,7 +145,7 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZQK-fO-WDz">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PinClipart.com_monarch-butterfly-clip-art_5615445" translatesAutoresizingMaskIntoConstraints="NO" id="ZQK-fO-WDz">
                                 <rect key="frame" x="76" y="248" width="262" height="394"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -418,9 +418,12 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="s6o-1P-mIX"/>
-        <segue reference="8fc-3p-Ge5"/>
-        <segue reference="h76-bw-wRT"/>
+        <segue reference="CDy-8Q-D6t"/>
+        <segue reference="Wqp-pm-YP1"/>
+        <segue reference="04u-Cb-2Fb"/>
         <segue reference="KSO-gl-tZa"/>
     </inferredMetricsTieBreakers>
+    <resources>
+        <image name="PinClipart.com_monarch-butterfly-clip-art_5615445" width="1707" height="1922"/>
+    </resources>
 </document>
