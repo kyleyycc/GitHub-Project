@@ -49,11 +49,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-<<<<<<< HEAD
-                        <color key="backgroundColor" systemColor="systemYellowColor"/>
-=======
                         <color key="backgroundColor" red="0.78915880625371382" green="1" blue="0.82228103502713923" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
->>>>>>> 0b70263fed39f4bdd1c515739781f0a95aa66143
                     </view>
                     <connections>
                         <outlet property="labeluno" destination="Jpg-kr-2aq" id="5Tt-2k-2hm"/>
@@ -499,12 +495,6 @@
         <segue reference="KWQ-eh-Xtc"/>
     </inferredMetricsTieBreakers>
     <resources>
-<<<<<<< HEAD
-        <systemColor name="systemYellowColor">
-            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-=======
         <image name="PinClipart.com_monarch-butterfly-clip-art_5615445" width="1707" height="1922"/>
->>>>>>> 0b70263fed39f4bdd1c515739781f0a95aa66143
     </resources>
 </document>
